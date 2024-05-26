@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { items } from "../../../items";
+import { toast } from "sonner";
 
 function CoffeeMenu() {
   const [counts, setCounts] = useState(Array(items.length).fill(0));
@@ -23,10 +24,18 @@ function CoffeeMenu() {
   };
 
   const submitOrder = async () => {
-    fetch("/api/send-email", {
+    const message = await fetch("/api/send-email", {
       method: "POST",
       body: JSON.stringify({ counts, ucebna, poznamka }),
     });
+
+    if (message.ok) {
+      toast.success("Objednávka byla odeslána.");
+
+      setCounts(Array(items.length).fill(0));
+      setUcebna(items[0]);
+      setPoznamka("");
+    }
   };
 
   return (

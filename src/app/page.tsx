@@ -9,7 +9,7 @@ export default function Home() {
     <main className="bg-gradient-to-r from-indigo-400 to-cyan-400">
       <div>
         <div id="menu" className="flex  w-full justify-between p-4 bg-white">
-          <div className="flex flex-row">
+          <div className="flex flex-row items-center">
             <img
               src="https://www.spst.cz/sites/default/files/SPST-logo-70let_horiz_1_0.png"
               className="h-14"
@@ -26,9 +26,14 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="flex  justify-center">
-            <div className="flex justify-center p-4">
-              <DateTimeComponent />
+
+          <div className="flex  justify-center items-center">
+            <div className="flex justify-center items-center p-4">
+              <iframe
+                src="https://free.timeanddate.com/clock/i9e13w17/n204/tlcz12/fn14/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                width="202"
+                height="59"
+              ></iframe>
             </div>
             <img
               src="https://static.vecteezy.com/system/resources/previews/024/029/787/original/fedora-hat-black-and-white-clipart-transparent-background-free-png.png"
