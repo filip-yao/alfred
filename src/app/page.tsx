@@ -30,9 +30,9 @@ export default function Home() {
           <div className="flex  justify-center items-center">
             <div className="flex justify-center items-center p-4">
               <iframe
-                src="https://free.timeanddate.com/clock/i9e13w17/n204/tlcz12/fn14/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                width="202"
-                height="59"
+                src="https://free.timeanddate.com/clock/i9e1wu7z/n1960/tlcz12/fn6/fs16/tct/pct/ftb/bas2/bat0/bacfff/pa8/tt1/tw1"
+                width="193"
+                height="35"
               ></iframe>
             </div>
             <img
