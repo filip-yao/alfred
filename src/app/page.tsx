@@ -40,8 +40,9 @@ export default function Home() {
               className="h-14 mr-4"
             ></img>
             <div className="flex flex-col justify-center">
+              <h1 className="text-black font-bold">Alfréd Alpha</h1>
               <h1 className="text-black font-bold">
-                Alfréd Alpha / Maturitní systém SPŠ TŘEBÍČ
+                Maturitní systém SPŠ TŘEBÍČ
               </h1>
             </div>
           </div>
