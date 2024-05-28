@@ -51,6 +51,7 @@ function CoffeeMenu() {
           onChange={(e) => setUcebna(e.target.value)}
           value={ucebna}
         >
+          <option value="Zadna Ucebna">Učebna nezvolena</option>
           <option value="B405">B405</option>
           <option value="B406">B406</option>
           <option value="B407">B407</option>
