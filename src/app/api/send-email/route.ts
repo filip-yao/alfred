@@ -33,7 +33,7 @@ export async function POST(req: Request, res: NextApiResponse) {
 
   const info = await transporter.sendMail({
     from: "alfred.spst@seznam.cz",
-    to: "alfred.spst@seznam.cz",
+    to: "yaof.06@spst.eu",
     subject: "Učebna: " + body.ucebna,
     html: emailBody,
   });
